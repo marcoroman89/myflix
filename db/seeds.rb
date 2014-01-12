@@ -6,22 +6,32 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Video.create(title: "Family Guy",
-  description: "A crazy comedy about a crazy family. It is very funny.",
-  small_cover_url: "/tmp/family_guy.jpg",
-  large_cover_url: "/tmp/family_guy.jpg")
+Video.create(title: "The Dark Knight Rises",
+  description: "A great superhero film about Batman.",
+  small_cover_url: "/tmp/dark_knight_rises.jpg",
+  large_cover_url: "/tmp/dark_knight_rises.jpg")
 
-Video.create(title: "Futurama",
-  description: "A crazy comedy about a crazy family. It is very funny.",
-  small_cover_url: "/tmp/futurama.jpg",
-  large_cover_url: "/tmp/futurama.jpg")
+Video.create(title: "Captain America",
+  description: "A great superhero film about Captain America.",
+  small_cover_url: "/tmp/captain_america.jpg",
+  large_cover_url: "/tmp/captain_america.jpg")
 
-Video.create(title: "Monk",
-  description: "A crazy comedy about a crazy family. It is very funny.",
-  small_cover_url: "/tmp/monk.jpg",
-  large_cover_url: "/tmp/monk.jpg")
+Video.create(title: "Iron Man",
+  description: "A great superhero film about Iron Man.",
+  small_cover_url: "/tmp/iron_man.jpg",
+  large_cover_url: "/tmp/iron_man.jpg")
 
-Video.create(title: "South Park",
-  description: "A crazy comedy about a crazy family. It is very funny.",
-  small_cover_url: "/tmp/south_park.jpg",
-  large_cover_url: "/tmp/south_park.jpg")
+Video.create(title: "The Avengers",
+  description: "A great superhero film about the Avengers.",
+  small_cover_url: "/tmp/the_avengers.jpg",
+  large_cover_url: "/tmp/the_avengers.jpg")
+
+Video.create(title: "Man of Steel",
+  description: "A great superhero film about Superman.",
+  small_cover_url: "/tmp/man_of_steel.jpg",
+  large_cover_url: "/tmp/man_of_steel")
+
+Video.create(title: "Thor",
+  description: "A great superhero film. about Thor",
+  small_cover_url: "/tmp/thor.jpg",
+  large_cover_url: "/tmp/thor.jpg")
